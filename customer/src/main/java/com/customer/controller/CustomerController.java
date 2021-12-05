@@ -35,21 +35,6 @@ public class CustomerController {
 			return "Welcome to Customer module";
 		}
 		
-		@GetMapping("/signin")
-		public String signinSuccessGet(Model model, @RequestParam(value="signin", required=false) String signin) {
-			
-			customerService.signInAuthentication(signin);
-			
-			return "Signin Successfully";
-		}
-		
-		@GetMapping("/signout")
-		public String signout(Model model) {
-			customerService.signout();
-			
-			return "Signout";
-		}
-		
 		
 		
 		@RequestMapping(value="/customer", method=RequestMethod.POST )
