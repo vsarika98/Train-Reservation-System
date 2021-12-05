@@ -8,8 +8,10 @@ Module name| Name of Creator
 -----------|----------------
 Admin   | Janavi Patil
 Train   | Kuntal Girase
-Customer| Pranali Daundkar and Adika kale
+Customer| Pranali Daundkar
+Station  | Payal Tembhurnikar
+Route   | Adika kale
 Booking | Sarika Verma
-Payment | Shruti Akolkar 
+Ticket | Shruti Akolkar 
 
 
