@@ -42,9 +42,9 @@ public class CustomerService {
 		
 		return customerRepository.findBygender(gender);
 	}
-	public void signInAuthentication(String signin) {
-	}
-	public void signout() {
-	}
+//	public void signInAuthentication(String signin) {
+//	}
+//	public void signout() {
+//	}
 	
 }
