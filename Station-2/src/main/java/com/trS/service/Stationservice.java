@@ -1,5 +1,7 @@
 package com.trS.service;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,5 +18,27 @@ public class Stationservice {
 		return stationRepository.save(station);	
 	}
 
+	public Station updateStation(Station station) {
+		// TODO Auto-generated method stub
+		return stationRepository.save(station);
+	}
+
+	public java.util.List<Station> getAllStation() {
+		// TODO Auto-generated method stub
+		return stationRepository.findAll();
+	}
+
+	public List getStationDetailsByStationName(String stationName) {
+		// TODO Auto-generated method stub
+		return stationRepository.findByStationName(stationName);
+	}
+
+
+	public Optional<Station> getStationDetailsByTrainName(String trainName) {
+		// TODO Auto-generated method stub
+		return stationRepository.findByTrainName(trainName);
+	}
+
+	
 	
 }
