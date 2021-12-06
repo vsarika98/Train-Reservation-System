@@ -44,14 +44,6 @@ public class Station2ServiceTest {
 	
 	}
 	
-//	@Test
-//	public void testGetTrainDetailsByTrainNo(){
-//		Optional<Station> station = Optional.of(new Station());
-//	 	station.get();
-//		
-//	    Mockito.when(sr.findById(12345)).thenReturn(station);
-//	    assertThat(ss.getStationDetailsByStationId(1)).isEqualTo(station);
-//	}
 	
 	@Test
 	public void testGetAllTrainDetails(){
